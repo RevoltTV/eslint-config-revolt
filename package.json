@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-revolt",
+  "version": "0.0.1",
+  "description": "ESLint Configuration for REVOLT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevoltTV/eslint-config-revolt.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "REVOLT <digital.engineering@revolt.tv>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevoltTV/eslint-config-revolt/issues"
+  },
+  "homepage": "https://github.com/RevoltTV/eslint-config-revolt#readme",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.4.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
+}
