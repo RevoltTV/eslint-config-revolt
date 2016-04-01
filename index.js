@@ -30,7 +30,7 @@ module.exports = {
         "react/prop-types": 1,
         "react/react-in-jsx-scope": 1,
         "react/self-closing-comp": 1,
-        "react/sort-prop-types": 1,
+        "react/sort-prop-types": 0,
         "react/wrap-multilines": 1,
     }
 };
