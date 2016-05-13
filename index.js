@@ -1,16 +1,17 @@
 module.exports = {
     "extends": "eslint:recommended",
-    "ecmaFeatures": {
-        "modules": true
-    },
     "env": {
         "browser": true,
         "es6": true,
         "mocha": true,
         "node": true
     },
-    "parser": "babel-eslint",
     "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "ecmaVersion": 6,
         "sourceType": "module"
     },
     "plugins": [
