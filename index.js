@@ -10,6 +10,9 @@ module.exports = {
         "node": true
     },
     "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "plugins": [
         "react"
     ],
