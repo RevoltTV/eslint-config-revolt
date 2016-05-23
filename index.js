@@ -37,5 +37,6 @@ module.exports = {
         "react/self-closing-comp": 1,
         "react/sort-prop-types": 0,
         "react/wrap-multilines": 1,
+        "semi": ["error", "always"]
     }
 };
