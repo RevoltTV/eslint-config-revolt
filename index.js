@@ -28,7 +28,7 @@ module.exports = {
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "no-console": 1,
         "no-debugger": 2,
-        "no-multiple-empty-lines": 2,
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
         "semi": ["error", "always"]
     }
 };
