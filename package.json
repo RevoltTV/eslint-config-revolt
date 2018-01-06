@@ -20,9 +20,7 @@
     "url": "https://github.com/RevoltTV/eslint-config-revolt/issues"
   },
   "homepage": "https://github.com/RevoltTV/eslint-config-revolt#readme",
-  "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
-    "eslint-plugin-react": "^6.10.0"
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.5.1"
   }
 }
