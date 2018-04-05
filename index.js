@@ -26,7 +26,7 @@ module.exports = {
     "rules": {
         "array-bracket-spacing": ["error", "never"],
         "consistent-this": [2, "self"],
-        "indent": ["error", 4, { "MemberExpression": 0, "SwitchCase": 1 }],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
         "no-console": ["error", { allow: ["warn", "error"] }],
         "no-debugger": 2,
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
