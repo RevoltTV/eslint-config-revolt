@@ -31,7 +31,7 @@ module.exports = {
         "no-debugger": 2,
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
         "object-curly-spacing": ["error", "always"],
-        "react/jsx-curly-spacing": ["error", "always"],
+        "react/jsx-curly-spacing": ["warning", "never"],
         "semi": ["error", "always"],
         "space-in-parens": ["error", "never"]
     }
